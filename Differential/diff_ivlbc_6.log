@@ -1,0 +1,93 @@
+
+Gurobi 10.0.2 (mac64[rosetta2], Python) logging started Tue Aug  8 11:32:10 2023
+
+Set parameter Username
+Set parameter LogFile to value "diff_ivlbc_6.log"
+Academic license - for non-commercial use only - expires 2024-03-21
+Read LP format model from file diff_ivlbc_6.lp
+Reading time = 0.01 seconds
+: 3361 rows, 2272 columns, 19744 nonzeros
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[rosetta2])
+
+CPU model: Apple M2 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 3361 rows, 2272 columns and 19744 nonzeros
+Model fingerprint: 0xe883df3f
+Variable types: 0 continuous, 2272 integer (2272 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 448 rows and 896 columns
+Presolve time: 0.02s
+Presolved: 2913 rows, 1376 columns, 18272 nonzeros
+Variable types: 0 continuous, 1376 integer (1056 binary)
+Found heuristic solution: objective 192.0000000
+
+Root relaxation: objective 5.263158e-01, 300 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.52632    0   16  192.00000    0.52632   100%     -    0s
+     0     0    0.52632    0   17  192.00000    0.52632   100%     -    0s
+     0     0    2.00000    0   39  192.00000    2.00000  99.0%     -    0s
+     0     0    2.00000    0    3  192.00000    2.00000  99.0%     -    0s
+     0     0    2.00000    0   25  192.00000    2.00000  99.0%     -    0s
+     0     0    2.00000    0    4  192.00000    2.00000  99.0%     -    0s
+     0     0    2.00000    0    6  192.00000    2.00000  99.0%     -    0s
+     0     0    2.00000    0    3  192.00000    2.00000  99.0%     -    0s
+     0     0    2.00000    0    6  192.00000    2.00000  99.0%     -    0s
+H    0     0                     128.0000000    2.00000  98.4%     -    0s
+     0     0    2.00000    0    9  128.00000    2.00000  98.4%     -    0s
+     0     0    2.00000    0    6  128.00000    2.00000  98.4%     -    0s
+     0     0    2.00000    0    3  128.00000    2.00000  98.4%     -    0s
+     0     0    2.00000    0    3  128.00000    2.00000  98.4%     -    0s
+H    0     0                      56.0000000    2.00000  96.4%     -    0s
+     0     2    2.00000    0    3   56.00000    2.00000  96.4%     -    0s
+ 16292 11460 infeasible   53        56.00000    8.57962  84.7%  45.2    5s
+ 26063 19164   18.75953   20  207   56.00000   10.00000  82.1%  54.7   10s
+ 35416 26132   12.86732   25  401   56.00000   10.64547  81.0%  65.8   15s
+ 36597 26239   10.78582   31    2   56.00000   10.78582  80.7%  66.4   20s
+ 46857 30274 infeasible   48        56.00000   10.78582  80.7%  57.4   25s
+H56657 30527                      48.0000000   10.78582  77.5%  51.4   29s
+ 57125 31553   43.50808   62  173   48.00000   10.78582  77.5%  51.2   30s
+ 70643 36491   16.78299   40   56   48.00000   10.78582  77.5%  46.4   35s
+ 86003 41705   15.49799   41   61   48.00000   10.98990  77.1%  42.5   40s
+ 100581 46807   26.04796   59   78   48.00000   11.60976  75.8%  39.8   45s
+ 116202 53699   18.94167   39   79   48.00000   12.00000  75.0%  37.9   50s
+ 127727 60809   26.14538   46  120   48.00000   12.38143  74.2%  36.6   55s
+ 141632 70202   18.55422   35   43   48.00000   12.64069  73.7%  35.4   60s
+ 157853 80743   17.00000   51   46   48.00000   13.00000  72.9%  34.2   65s
+ 172363 90173   24.78362   44  154   48.00000   13.21212  72.5%  33.4   70s
+ 189490 101651   31.33733   52   64   48.00000   13.43898  72.0%  32.5   75s
+ 204308 111008 infeasible   67        48.00000   13.65500  71.6%  31.9   80s
+ 219635 120611   43.82517   48  154   48.00000   13.87146  71.1%  31.4   85s
+H223967 98216                      40.0000000   13.92957  65.2%  31.2   89s
+ 223969 99209   18.53030   54   84   40.00000   13.93585  65.2%  31.2   90s
+ 237244 106083   30.12033   60   83   40.00000   14.05242  64.9%  30.9   95s
+ 253540 114737     cutoff   58        40.00000   14.28144  64.3%  30.4  100s
+ 267220 122674   17.61477   42   81   40.00000   14.45127  63.9%  30.1  105s
+
+Cutting planes:
+  Gomory: 9
+  Lift-and-project: 3
+  Cover: 24
+  Implied bound: 32
+  Clique: 4
+  MIR: 15
+  StrongCG: 1
+  Flow cover: 13
+  Inf proof: 1
+  Zero half: 25
+  Relax-and-lift: 3
+
+Explored 275543 nodes (8240234 simplex iterations) in 107.50 seconds (180.83 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 5: 40 48 56 ... 192
+
+Solve interrupted
+Best objective 4.000000000000e+01, best bound 1.600000000000e+01, gap 60.0000%

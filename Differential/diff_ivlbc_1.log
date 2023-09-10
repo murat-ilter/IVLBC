@@ -1,0 +1,36 @@
+
+Gurobi 10.0.2 (mac64[rosetta2], Python) logging started Tue Aug  8 11:30:49 2023
+
+Set parameter Username
+Set parameter LogFile to value "diff_ivlbc_1.log"
+Academic license - for non-commercial use only - expires 2024-03-21
+Read LP format model from file diff_ivlbc_1.lp
+Reading time = 0.00 seconds
+: 561 rows, 432 columns, 3344 nonzeros
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[rosetta2])
+
+CPU model: Apple M2 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 561 rows, 432 columns and 3344 nonzeros
+Model fingerprint: 0xfbba34dd
+Variable types: 0 continuous, 432 integer (432 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [2e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 128 rows and 256 columns
+Presolve time: 0.01s
+Presolved: 433 rows, 176 columns, 2832 nonzeros
+Variable types: 0 continuous, 176 integer (176 binary)
+Found heuristic solution: objective 32.0000000
+Found heuristic solution: objective 2.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 2 32 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%

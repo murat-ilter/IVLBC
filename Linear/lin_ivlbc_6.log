@@ -1,0 +1,72 @@
+
+Gurobi 10.0.2 (mac64[rosetta2], Python) logging started Tue Aug  8 00:14:27 2023
+
+Set parameter Username
+Set parameter LogFile to value "lin_ivlbc_6.log"
+Academic license - for non-commercial use only - expires 2024-03-21
+Read LP format model from file lin_ivlbc_6.lp
+Reading time = 0.01 seconds
+: 2977 rows, 2272 columns, 16768 nonzeros
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[rosetta2])
+
+CPU model: Apple M2 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 2977 rows, 2272 columns and 16768 nonzeros
+Model fingerprint: 0x03da3803
+Variable types: 0 continuous, 2272 integer (2272 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 448 rows and 896 columns
+Presolve time: 0.01s
+Presolved: 2529 rows, 1376 columns, 15296 nonzeros
+Variable types: 0 continuous, 1376 integer (1056 binary)
+Found heuristic solution: objective 96.0000000
+
+Root relaxation: objective 1.818182e-01, 244 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.18182    0   26   96.00000    0.18182   100%     -    0s
+     0     0    0.18182    0   32   96.00000    0.18182   100%     -    0s
+     0     0    0.39394    0   69   96.00000    0.39394   100%     -    0s
+     0     0    0.39394    0   68   96.00000    0.39394   100%     -    0s
+     0     0    1.00000    0    7   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0    6   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0   47   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0   24   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0    4   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0   19   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0    3   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0    9   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0    3   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0    3   96.00000    1.00000  99.0%     -    0s
+     0     0    1.00000    0    3   96.00000    1.00000  99.0%     -    0s
+     0     2    1.00000    0    3   96.00000    1.00000  99.0%     -    0s
+H  142   126                      20.0000000    1.58408  92.1%  30.9    0s
+ 36145 23209    5.00000   35   22   20.00000    5.00000  75.0%  15.7    5s
+ 51748 28770   11.50000   65   32   20.00000    5.00000  75.0%  15.2   10s
+ 69774 34949   14.00000   55   61   20.00000    5.00000  75.0%  15.0   15s
+ 88557 40560   18.00000   67   45   20.00000    5.48508  72.6%  14.8   20s
+ 102812 45025    7.33333   47   23   20.00000    6.00000  70.0%  14.6   25s
+
+Cutting planes:
+  Cover: 1
+  Implied bound: 8
+  Clique: 4
+  MIR: 2
+  Flow cover: 7
+  Zero half: 4
+  RLT: 1
+
+Explored 121145 nodes (1755074 simplex iterations) in 29.66 seconds (46.51 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 20 96 
+
+Solve interrupted
+Best objective 2.000000000000e+01, best bound 6.000000000000e+00, gap 70.0000%

@@ -1,0 +1,44 @@
+
+Gurobi 10.0.2 (mac64[rosetta2], Python) logging started Tue Aug  8 00:11:45 2023
+
+Set parameter Username
+Set parameter LogFile to value "lin_ivlbc_1.log"
+Academic license - for non-commercial use only - expires 2024-03-21
+Read LP format model from file lin_ivlbc_1.lp
+Reading time = 0.00 seconds
+: 497 rows, 432 columns, 2848 nonzeros
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[rosetta2])
+
+CPU model: Apple M2 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 497 rows, 432 columns and 2848 nonzeros
+Model fingerprint: 0xa96d54fc
+Variable types: 0 continuous, 432 integer (432 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 128 rows and 256 columns
+Presolve time: 0.01s
+Presolved: 369 rows, 176 columns, 2336 nonzeros
+Variable types: 0 continuous, 176 integer (176 binary)
+Found heuristic solution: objective 16.0000000
+
+Root relaxation: objective 1.818182e-01, 214 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.18182    0   13   16.00000    0.18182  98.9%     -    0s
+H    0     0                       1.0000000    0.18182  81.8%     -    0s
+     0     0    0.18182    0   13    1.00000    0.18182  81.8%     -    0s
+
+Explored 1 nodes (265 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 1 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%

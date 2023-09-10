@@ -1,0 +1,154 @@
+
+Gurobi 10.0.1 (mac64[x86], Python) logging started Mon Aug  7 23:51:06 2023
+
+Set parameter Username
+Set parameter LogFile to value "lin_ivlbc_3.log"
+Academic license - for non-commercial use only - expires 2023-11-22
+Read LP format model from file lin_ivlbc_3.lp
+Reading time = 0.01 seconds
+: 1489 rows, 1168 columns, 8416 nonzeros
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-8259U CPU @ 2.30GHz
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1489 rows, 1168 columns and 8416 nonzeros
+Model fingerprint: 0xbf69c798
+Variable types: 0 continuous, 1168 integer (1168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 256 rows and 512 columns
+Presolve time: 0.02s
+Presolved: 1233 rows, 656 columns, 7520 nonzeros
+Variable types: 0 continuous, 656 integer (528 binary)
+Found heuristic solution: objective 48.0000000
+
+Root relaxation: objective 1.818182e-01, 282 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.18182    0   26   48.00000    0.18182   100%     -    0s
+H    0     0                      13.0000000    0.18182  98.6%     -    0s
+     0     0    0.18182    0   33   13.00000    0.18182  98.6%     -    0s
+     0     0    0.42400    0   42   13.00000    0.42400  96.7%     -    0s
+     0     0    0.48279    0   45   13.00000    0.48279  96.3%     -    0s
+     0     0    0.57554    0   67   13.00000    0.57554  95.6%     -    0s
+     0     0    1.00000    0   85   13.00000    1.00000  92.3%     -    0s
+     0     0    1.00000    0  156   13.00000    1.00000  92.3%     -    0s
+H    0     0                      10.0000000    1.00000  90.0%     -    0s
+     0     0    1.00000    0  153   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0  174   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   51   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   49   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   49   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   48   10.00000    1.00000  90.0%     -    0s
+H    0     0                       7.0000000    1.00000  85.7%     -    0s
+     0     0    1.00000    0   47    7.00000    1.00000  85.7%     -    0s
+     0     0    1.00000    0    7    7.00000    1.00000  85.7%     -    0s
+     0     0    1.00000    0    6    7.00000    1.00000  85.7%     -    0s
+     0     0    1.14800    0    5    7.00000    1.14800  83.6%     -    0s
+     0     0    1.28571    0   17    7.00000    1.28571  81.6%     -    0s
+     0     0    1.30000    0    4    7.00000    1.30000  81.4%     -    0s
+     0     2    1.30000    0    4    7.00000    1.30000  81.4%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Lift-and-project: 1
+  Cover: 123
+  Implied bound: 138
+  Clique: 33
+  MIR: 9
+  StrongCG: 8
+  GUB cover: 1
+  Inf proof: 23
+  Zero half: 5
+  RLT: 12
+
+Explored 3121 nodes (106291 simplex iterations) in 2.09 seconds (2.17 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 7 10 13 48 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Gurobi 10.0.2 (mac64[rosetta2], Python) logging started Tue Aug  8 00:12:39 2023
+
+Set parameter Username
+Set parameter LogFile to value "lin_ivlbc_3.log"
+Academic license - for non-commercial use only - expires 2024-03-21
+Read LP format model from file lin_ivlbc_3.lp
+Reading time = 0.00 seconds
+: 1489 rows, 1168 columns, 8416 nonzeros
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[rosetta2])
+
+CPU model: Apple M2 Pro
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 1489 rows, 1168 columns and 8416 nonzeros
+Model fingerprint: 0xbf69c798
+Variable types: 0 continuous, 1168 integer (1168 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 256 rows and 512 columns
+Presolve time: 0.01s
+Presolved: 1233 rows, 656 columns, 7520 nonzeros
+Variable types: 0 continuous, 656 integer (528 binary)
+Found heuristic solution: objective 48.0000000
+
+Root relaxation: objective 1.818182e-01, 282 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.18182    0   26   48.00000    0.18182   100%     -    0s
+H    0     0                      13.0000000    0.18182  98.6%     -    0s
+     0     0    0.18182    0   33   13.00000    0.18182  98.6%     -    0s
+     0     0    0.42400    0   42   13.00000    0.42400  96.7%     -    0s
+     0     0    0.48279    0   45   13.00000    0.48279  96.3%     -    0s
+     0     0    0.57554    0   67   13.00000    0.57554  95.6%     -    0s
+     0     0    1.00000    0   85   13.00000    1.00000  92.3%     -    0s
+     0     0    1.00000    0  156   13.00000    1.00000  92.3%     -    0s
+H    0     0                      10.0000000    1.00000  90.0%     -    0s
+     0     0    1.00000    0  153   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0  174   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   51   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   49   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   49   10.00000    1.00000  90.0%     -    0s
+     0     0    1.00000    0   48   10.00000    1.00000  90.0%     -    0s
+H    0     0                       7.0000000    1.00000  85.7%     -    0s
+     0     0    1.00000    0   47    7.00000    1.00000  85.7%     -    0s
+     0     0    1.00000    0    7    7.00000    1.00000  85.7%     -    0s
+     0     0    1.00000    0    6    7.00000    1.00000  85.7%     -    0s
+     0     0    1.14800    0    5    7.00000    1.14800  83.6%     -    0s
+     0     0    1.28571    0   17    7.00000    1.28571  81.6%     -    0s
+     0     0    1.30000    0    4    7.00000    1.30000  81.4%     -    0s
+     0     2    1.30000    0    4    7.00000    1.30000  81.4%     -    0s
+
+Cutting planes:
+  Gomory: 7
+  Lift-and-project: 1
+  Cover: 144
+  Implied bound: 187
+  Clique: 44
+  MIR: 11
+  StrongCG: 8
+  GUB cover: 1
+  Inf proof: 13
+  Zero half: 8
+  RLT: 12
+
+Explored 2862 nodes (151916 simplex iterations) in 1.02 seconds (1.56 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 7 10 13 48 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%

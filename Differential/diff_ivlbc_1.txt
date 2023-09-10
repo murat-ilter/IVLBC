@@ -1,0 +1,14 @@
+0 seconds 
+<gurobi.Var p0_0_0 (value 1.0)>
+<gurobi.Var x0_0 (value 1.0)>
+<gurobi.Var x0_1 (value 1.0)>
+<gurobi.Var x0_3 (value 1.0)>
+<gurobi.Var A0_0 (value 1.0)>
+<gurobi.Var y0_0 (value 1.0)>
+<gurobi.Var z0_0 (value 1.0)>
+<gurobi.Var x1_4 (value 1.0)>
+<gurobi.Var d0_9 (value 1.0)>
+<gurobi.Var x1_8 (value 1.0)>
+<gurobi.Var d0_17 (value 1.0)>
+<gurobi.Var x1_12 (value 1.0)>
+<gurobi.Var d0_25 (value 1.0)>
